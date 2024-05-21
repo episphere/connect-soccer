@@ -1,6 +1,6 @@
 const { Translate } = require('@google-cloud/translate').v2;
-const codes = require('./soc2010_6digit_es.json');
 const { setHeaders } = require('./common');
+const codes = require('../soc2010_6digit_es.json');
 
 const translator = new Translate();
 

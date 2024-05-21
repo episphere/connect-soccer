@@ -1,3 +1,3 @@
-const { translate } = require('./translation');
+const { translate } = require('./src/translation');
 
 exports.translate = translate;
