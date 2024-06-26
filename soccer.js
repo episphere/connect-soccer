@@ -37,7 +37,7 @@ const soccer = async (req, res) => {
         // Translate results if language is Spanish
         if (language && language === 'es') {
             results = findCodes(results, es);
-        } else if (language) {
+        } else if (language && language !== 'en') {
             throw new Error('Unsupported language.');
         }
 
