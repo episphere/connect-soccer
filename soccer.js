@@ -102,7 +102,10 @@ const findCodes = (results, codes) => {
         const codeInfo = codes.find(c => c.code === result.code);
         
         if (codeInfo) {
-            matches.push(codeInfo);
+            matches.push({
+                code: codeInfo.code,
+                label: codeInfo.title
+            });
         }
     }
 
