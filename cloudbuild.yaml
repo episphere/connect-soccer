@@ -25,7 +25,7 @@ steps:
 
 substitutions:
   _BASE_IMAGE: us-central1-docker.pkg.dev/serverless-runtimes/google-22-full/runtimes/nodejs20
-  _FUNCTION: connect-soccer
+  _FUNCTION: soccer
   _MEMBER: allUsers
   _REGION: us-central1
   _ROLE: roles/run.invoker
